@@ -13,7 +13,6 @@ http:
   - method: GET
     path:
       - "{{BaseURL}}/jolokia/list"
-      - "{{BaseURL}}/jolokia/list"
 
     matchers-condition: and
     matchers:
