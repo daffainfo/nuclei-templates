@@ -36,7 +36,7 @@ http:
         {{str1}}
         ----------------------------835846770881083140190633--
       - |
-        GET /Public//Uploads//{{date}}//{{file}} HTTP/1.1
+        GET /Public//Uploads//{{date_time("%Y-%M-%D")}}//{{file}} HTTP/1.1
         Host: {{Hostname}}
 
     matchers:
